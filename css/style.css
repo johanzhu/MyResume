@@ -1,0 +1,291 @@
+/*公共样式*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.comWidth{
+	width: 980px;
+	margin: 0 auto;
+}
+
+/*个人信息区域*/
+.gerenxinxi{
+	width: 100%;
+	height: 200px;
+	padding: 20px 0;
+	color:white;
+	font-size: 16px;
+	background-color: #222;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+	animation: color 1s linear;
+	animation-fill-mode: forwards;
+	-webkit-animation: color 1s linear;
+	-webkit-animation-fill-mode: forwards;
+}
+.gerenxinxi a{color: white;text-decoration: underline;}
+@keyframes color{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+.xinxiBlock{
+	width: 350px;
+}
+.touxiang{
+	width: 150px;
+	height: 140px;
+	margin-top: 5px;
+}
+.touxiang img{
+	display: block;
+	width: 150px;
+	height: 190px;
+	box-shadow: 1px 1px 3px rgba(255,255,255,0.5);
+}
+.mingzi{
+	font-size: 28px;
+	width: 250px;
+	margin-left: 25px;
+}
+.lianxifangshi{
+	width: 250px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.github{
+	width: 250px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.CET{
+	width: 250px;
+	margin-top: 10px;
+	margin-left: 25px;
+	font-size: 13px;
+}
+.qiuzhiyixiang{
+	width: 250px;
+	margin-top: 10px;
+	margin-left: 25px;
+	font-size: 13px;
+}
+/*技能点数区域*/
+.jinengshu{
+	color: white;
+}
+.jinengshu li{
+	padding: 6px 0;
+}
+.jinengshu i{
+	display: inline-block;
+	height: 13px;
+	font-style: normal;
+	line-height: 13px;
+	color: black;
+	background-color: white;
+}
+.HTMLCSS{
+	margin-left: 15px;
+	animation: HTMLCSS 2s ease forwards ;
+	-webkit-animation: HTMLCSS 2s ease forwards;
+}
+@keyframes HTMLCSS{
+	from{width: 0;}
+	to{width: 320px;}
+}
+.JS{
+	animation: JS 2s .2s ease forwards ;
+	-webkit-animation: JS 2s .2s ease forwards;
+	margin-left: 26px;
+}
+@keyframes JS{
+	from{width: 0;}
+	to{width: 280px;}
+}
+.Jquery{
+	animation: JQ 2s .4s ease forwards ;
+	-webkit-animation: JQ 2s .4s ease forwards;
+	margin-left: 46px;
+}
+@keyframes JQ{
+	from{width: 0;}
+	to{width: 230px;}
+}
+.React{
+	animation: RE 2s .8s ease forwards ;
+	-webkit-animation: RE 2s .8s ease forwards;
+	margin-left: 41px;
+}
+@keyframes RE{
+	from{width: 0;}
+	to{width: 130px;}
+}
+.Three{
+	animation: THREE 2s 1s ease forwards ;
+	-webkit-animation: THREE 2s 1s ease forwards;
+	margin-left: 39px;
+}
+@keyframes THREE{
+	from{width: 0;}
+	to{width: 200px;}
+}
+.fireworks{
+	animation: fi 2s 1.2s ease forwards ;
+	-webkit-animation: fi 2s 1.2s ease forwards;
+	margin-left: 25px;
+}
+@keyframes fi{
+	from{width: 0;}
+	to{width: 230px;}
+}
+.jinengshu span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	padding-left: 10px;
+	opacity: 0;
+	background: url(../img/点击.png) no-repeat;
+	animation: showIcon 2s 2s ease infinite ;
+	-webkit-animation: showIcon 2s 2s ease infinite;
+	cursor: pointer;
+}
+@keyframes showIcon{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+/*下方展示区*/
+.jinengBox{
+	font-size: 16px;
+	margin-right: 65px;
+	margin-top: 20px;
+}
+.jinengBox li{
+	list-style-type: initial;
+}
+.htmlcss,.js,.jq,.re,.th,.fi{
+	display: none;
+	position: absolute;
+	background-color: white;
+	left: 60%;
+	top: -90%;
+	z-index: 50;
+}
+.jinengBox{
+	position: relative;
+	height: 30px;
+}
+.jinengBox ul{
+	border: 1px solid #E5E9EF;
+	border-radius: 4px;
+	padding: 25px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.js{
+	margin-right: 30px;
+}
+.jq{
+	margin-right: 30px;
+}
+.fi{
+	margin-right: 50px;
+}
+.re{
+	margin-right: -30px;
+}
+/*教育经历*/
+.jiaoyujingli{
+	border: 1px solid #E5E9EF;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+	margin-left: 30px;
+	display: none;
+}
+.jiaoyujingli li{
+	padding: 5px;
+	text-indent: 2em;
+}
+.whyme{
+	margin-left: 50px;
+	height: 160px;
+	padding:  5px 20px;
+}
+/*项目经历*/
+.xiangmujingli{
+	margin-top: 30px;
+}
+.xiangmujingli img{
+	display: block;
+	width: 350px;
+	height: 200px;
+	border: 1px solid #E5E9EF;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.xiangmujingli  .fl{
+	width: 500px;
+}
+.bizhan,.danmu,.daohang,.hualang,.yanzhen{
+	border: 1px solid #E5E9EF;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+	width: 900px;
+	height: 200px;
+	margin: 20px 0;
+	padding-left: 20px;
+}
+.xiangmujingli li{
+	font-size: 14px;
+	padding: 10px;
+	list-style: initial;
+	margin-left: 20px;
+}
+.xiangmujingli a{
+	color: #00a1d6;
+}
+.xiangmujingli a:hover{
+	color: red;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+.footer .fl{
+	margin-top: 20px;
+}
+/*底部*/
+.youxiangIcon img{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	vertical-align: calc(-5px);
+}
+/*回到顶部*/
+.topBar{
+	width: 35px;
+	height: 35px;
+	border: 2px solid black;
+	border-radius: 4px;
+	position: absolute;
+	left: 90%;
+	top: 250%;
+	padding: 10px;
+	cursor: pointer;
+}
+.topBar:hover{
+	background-color: #E5E9EF
+}
+
+
+
+
+
+
+
+
+
+
